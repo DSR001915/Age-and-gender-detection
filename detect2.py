@@ -56,7 +56,7 @@ while cv2.waitKey(1)<0 :
     if not faceBoxes:
         print("No face detected")
     if not faceBoxes:
-        break;
+        break
 
     for faceBox in faceBoxes:
         face=frame[max(0,faceBox[1]-padding):
@@ -76,3 +76,5 @@ while cv2.waitKey(1)<0 :
 
         cv2.putText(resultImg, f'{gender}, {age}', (faceBox[0], faceBox[1]-10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0,255,255), 2, cv2.LINE_AA)
         cv2.imshow("Detecting age and gender", resultImg)
+
+
