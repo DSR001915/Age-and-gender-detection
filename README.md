@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gender-and-Age-Detection   <img alt="GitHub" src="https://img.shields.io/github/license/smahesh29/Gender-and-Age-Detection">
 
 
@@ -107,3 +108,6 @@
     >python detect.py --image man3.jpg
     Gender: Male
     Age: 60-100 years
+=======
+# Age-and-gender-detection
+>>>>>>> f2778bf0a61f1a92277466ca71ae23ef97fa0b19
